@@ -10,7 +10,7 @@ class PS5Bot():
         sleep(50)
 
     def checkAndBuyPS5(self):
-        self.driver.get('THE SHIT YOU WANT TO BUY')
+        self.driver.get('https://www.amazon.com/GeForce-RTX-3060-12G-P5-3657-KR-Backplate/dp/B092L2KTHD/ref=sr_1_21?crid=QHGK99E7NQLU&dchild=1&keywords=rtx+3060&qid=1621808207&sprefix=rtx%2Caps%2C165&sr=8-21')
         sleep(1)   
         try:
             buyNow = self.driver.find_element_by_xpath('//*[@id="add-to-cart-button"]')
